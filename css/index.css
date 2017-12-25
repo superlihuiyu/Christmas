@@ -1,0 +1,182 @@
+body,htm{
+    width: 100%;
+    height:100%;
+}
+/*公共样式*/
+#container,.page{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+*{
+    touch-action: none;
+}
+
+.page-1-1,.page-2-1,.page-3-1{
+    background: url("../img/bg.gif") no-repeat;
+    background-position: -20px;
+    background-size: 200%;
+}
+
+.common_img{
+    height: auto;
+    width: 25px;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    margin-left:-12px;
+}
+.page-current{
+    z-index: 2;
+}
+.hide{
+    display: none;
+}
+#container{
+    background: url("../img/black.png");
+}
+.music{
+    position: absolute;
+    top:10px;
+    right: 10px;
+    width: 88px;
+    height: 88px;
+    background: url("../img/music_c0fda01.gif") no-repeat;
+    background-position: 15px;
+    z-index: 99;
+}
+.music>img{
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+.fire{
+    display:block ;
+    width:100%;
+    height: 100%;
+    position: absolute;
+}
+/*页面样式*/
+.start{
+    position: absolute;
+    width: 60%;
+    left: 50%;
+    margin-left: -30%;
+    top: -10%;
+}
+.drop{
+    position: absolute;
+    width: 50%;
+    margin-left: 25%;
+    top:-15%;
+}
+.left-1{
+    position: absolute;
+    width: 7%;
+    top:-20%;
+    left: 7%;
+}
+.right-2{
+    position: absolute;
+    width: 7%;
+    top:-15%;
+    right: 7%;
+}
+.dropbox{
+    position: absolute;
+    top:-5%;
+    left: 50%;
+    margin-left: -40%;
+    width: 80%;
+}
+.city{
+    position: absolute;
+    bottom: 0;
+    width: 130%;
+    z-index: 5px;
+}
+.allball{
+    position: absolute;
+    left: 50%;
+    bottom: -25%;
+    width: 80%;
+    margin-left: -40%;
+}
+.img_1{
+    display: block;
+    width: 60%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -30%;
+    margin-top: -25%;
+}
+.img_lian{
+    display: block;
+    width: 150%;
+    position: absolute;
+    top:-10%;
+    left: -25%;
+}
+.img_light{
+    position: absolute;
+    width: 15%;
+}
+.lian{
+    position: relative;
+    top:1%;
+    width: 100%;
+    height: 20%;
+    background: url("../img/middle-light.png") no-repeat;
+    background-size: 100%;
+}
+.img_middle{
+    display: block;
+    width: 110%;
+    position: absolute;
+    top:0;
+    left:-5%;
+}
+.img_light_1{
+    top: 9%;
+    left: 1%;
+}
+.img_light_2{
+    top: 25%;
+    left: 9%;
+}
+.img_light_3{
+    top: 37%;
+    left: 18%;
+}
+.img_light_4{
+    top: 46%;
+    left: 27%;
+}
+.img_light_5{
+    top: 53%;
+    left: 37%;
+}
+.img_light_6{
+    top: 55%;
+    left: 47%;
+}
+.img_light_7{
+    top: 50%;
+    left: 58%;
+}
+.img_light_8{
+    top: 39%;
+    left: 70%;
+}
+.img_light_9{
+    top: 22%;
+    left: 81%;
+}
+.img_light_10{
+    top: 1%;
+    left: 91%;
+    z-index: 6;
+}
+
